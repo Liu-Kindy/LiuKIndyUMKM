@@ -1,19 +1,37 @@
 <?php include 'includes/header.php'; ?>
-<h2 class="mb-4">Detail Produk Pilihan</h2>
+<h2 class="mb-4 text-center">🍴 Menu Andalan Kami</h2>
 <div class="row">
-    <div class="col-md-6">
-        <img src="images/pizza1.jpg" class="img-fluid rounded" alt="Detail Pizza">
+    <div class="col-md-5">
+        <img src="images/fazbear.jpg" class="img-fluid rounded shadow" alt="Detail Pizza">
     </div>
-    <div class="col-md-6">
-        <h3>Pizza Margherita Spesial</h3>
-        <p>Resep turun temurun dengan saus tomat segar dari petani binaan UMKM kami. Mozzarella berkualitas tinggi.</p>
-        <ul>
-            <li>Ukuran: Reguler (30cm) & Jumbo (40cm)</li>
-            <li>Harga: Rp45.000 - Rp75.000</li>
-            <li>Topping tambahan: Jamur, Sosis, Keju ekstra (+Rp10.000)</li>
+    <div class="col-md-7">
+        <h3>Pizza Freddy's Special</h3>
+        <p class="lead">Perpaduan sempurna antara daging pepperoni dan sosis dengan saus tomat spesial resep turun temurun.</p>
+        <ul class="list-unstyled">
+            <li><i class="fas fa-check-circle text-success"></i> Ukuran: Regular (30cm) & Jumbo (40cm)</li>
+            <li><i class="fas fa-check-circle text-success"></i> Harga: Rp55.000 - Rp85.000</li>
+            <li><i class="fas fa-check-circle text-success"></i> Extra topping: Keju tambahan (+Rp10k), Jamur (+Rp8k)</li>
         </ul>
-        <button class="btn btn-danger">Pesan Sekarang</button>
+        <button class="btn btn-retro" data-bs-toggle="modal" data-bs-target="#orderModal"><i class="fas fa-shopping-cart"></i> Pesan Sekarang</button>
     </div>
 </div>
-<!-- Anda juga bisa menampilkan produk lain dalam bentuk tabel atau card sesuai kreatifitas -->
+
+<!-- Modal pemesanan -->
+<div class="modal fade" id="orderModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Konfirmasi Pesanan</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <p>Terima kasih! Silakan login atau daftar terlebih dahulu untuk melanjutkan pesanan.</p>
+            </div>
+            <div class="modal-footer">
+                <a href="login.php" class="btn btn-primary">Login</a>
+                <a href="register.php" class="btn btn-secondary">Daftar</a>
+            </div>
+        </div>
+    </div>
+</div>
 <?php include 'includes/footer.php'; ?>
