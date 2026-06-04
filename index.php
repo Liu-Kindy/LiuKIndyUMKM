@@ -10,7 +10,7 @@
 </div>
 
 <!-- Item Produk (3 pizza dengan modal) -->
-<h2 class="text-center mb-4 text-white"><i class="fas fa-star text-warning"></i> Menu Favorit <i class="fas fa-star text-warning"></i></h2>
+<h2 class="text-center mb-4 text-white" id="menu"><i class="fas fa-star text-warning"></i> Menu Favorit <i class="fas fa-star text-warning"></i></h2>
 <div class="row">
     <!-- Pizza Freddy -->
     <div class="col-md-4 mb-4">
