@@ -1,9 +1,9 @@
 <?php include 'includes/header.php'; ?>
 
-<h2 class="mb-3"><i class="fas fa-user-plus"></i> Daftar Menjadi Member</h2>
+<h2 class="mb-3 text-white"><i class="fas fa-user-plus"></i> Daftar Menjadi Member</h2>
 <div class="row">
     <div class="col-md-5">
-        <div class="card p-3">
+        <div class="card p-3 bg-dark text-white shadow">
             <form id="registerForm">
                 <div class="mb-3">
                     <label>Nama Lengkap</label>
@@ -25,7 +25,7 @@
             </form>
         </div>
     </div>
-    <div class="col-md-7">
+    <div class="col-md-7 text-white">
         <h4>📋 Daftar Member Terdaftar</h4>
         <div class="table-responsive">
             <table class="table table-bordered table-custom" id="userTable">

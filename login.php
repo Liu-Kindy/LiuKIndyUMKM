@@ -2,7 +2,7 @@
 
 <div class="row justify-content-center mt-5">
     <div class="col-md-5">
-        <div class="card shadow">
+        <div class="card shadow bg-dark text-white">
             <div class="card-header bg-danger text-white text-center">
                 <h4><i class="fas fa-sign-in-alt"></i> Login Member</h4>
             </div>
