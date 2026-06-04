@@ -1,7 +1,7 @@
 <?php include 'includes/header.php'; ?>
 
 <!-- Hero Section -->
-<div class="hero text-center">
+<div class="hero text-center" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/hero-bg.jpg'); background-size: cover; background-position: center;">
     <div class="container">
         <h1 class="display-3 fw-bold">Pizza Keluarga Paling Ceria!</h1>
         <p class="lead fs-3">Rasakan kelezatan pizza spesial dengan teman-teman animatronic kami.</p>

@@ -11,7 +11,7 @@
     <!-- External CSS -->
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body style="background-color: #1d1d1d;">
+<body>
 
 <!-- Navbar gaya retro -->
 <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #8B3A3A;">
