@@ -1,10 +1,10 @@
 <?php include 'includes/header.php'; ?>
-<h2 class="mb-4 text-center">🍴 Menu Andalan Kami</h2>
+<h2 class="mb-4 text-center text-white">🍴 Menu Andalan Kami</h2>
 <div class="row">
     <div class="col-md-5">
         <img src="images/fazbear.jpg" class="img-fluid rounded shadow" alt="Detail Pizza">
     </div>
-    <div class="col-md-7">
+    <div class="col-md-7 text-white">
         <h3>Pizza Freddy's Special</h3>
         <p class="lead">Perpaduan sempurna antara daging pepperoni dan sosis dengan saus tomat spesial resep turun temurun.</p>
         <ul class="list-unstyled">

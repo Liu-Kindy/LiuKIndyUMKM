@@ -1,7 +1,7 @@
 <?php include 'includes/header.php'; ?>
 
 <!-- Hero Section -->
-<div class="hero text-center" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/hero-bg.jpg'); background-size: cover; background-position: center;">
+<div class="hero text-center" style="background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('images/hero.webp'); background-size: cover; background-position: center;">
     <div class="container">
         <h1 class="display-3 fw-bold">Pizza Keluarga Paling Ceria!</h1>
         <p class="lead fs-3">Rasakan kelezatan pizza spesial dengan teman-teman animatronic kami.</p>
@@ -14,7 +14,7 @@
 <div class="row">
     <!-- Pizza Freddy -->
     <div class="col-md-4 mb-4">
-        <div class="card h-100">
+        <div class="card h-100 bg-dark text-white">
             <img src="images/fredbear-pizza.jpg" class="card-img-top" alt="Pizza Freddy">
             <div class="card-body text-center">
                 <h5 class="card-title">🍕 Freddy's PizzaBox</h5>
@@ -25,7 +25,7 @@
     </div>
     <!-- Pizza Chica -->
     <div class="col-md-4 mb-4">
-        <div class="card h-100">
+        <div class="card h-100 bg-dark text-white">
             <img src="images/pizza-cookie.jpg" class="card-img-top" alt="Pizza Cookie">
             <div class="card-body text-center">
                 <h5 class="card-title">🍪 Cookie pizza</h5>
@@ -36,7 +36,7 @@
     </div>
     <!-- Pizza Bonnie -->
     <div class="col-md-4 mb-4">
-        <div class="card h-100">
+        <div class="card h-100 bg-dark text-white">
             <img src="images/fazbear.jpg" class="card-img-top" alt="Pizza fazbear">
             <div class="card-body text-center">
                 <h5 class="card-title">🍕 Fazbear's Special</h5>
