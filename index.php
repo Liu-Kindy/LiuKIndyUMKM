@@ -80,12 +80,12 @@
                 <h5 class="modal-title">Pizza Freddy's Special</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
-            <div class="modal-body">
+            <div class="modal-body bg-dark text-white">
                 <img src="images/pizza.jpg" class="img-fluid mb-3 rounded">
                 <p><strong>Harga:</strong> Rp55.000 (Medium) / Rp85.000 (Large)</p>
                 <p><strong>Topping:</strong> Pepperoni, sosis sapi, jamur, keju mozzarella, saus tomat rahasia.</p>
             </div>
-            <div class="modal-footer">
+            <div class="modal-footer bg-dark text-white">
                 <button class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
             </div>
         </div>
@@ -99,12 +99,14 @@
                 <h5 class="modal-title">Pizza Chica Chicken</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
-            <div class="modal-body">
+            <div class="modal-body bg-dark text-white">
                 <img src="images/pizza-cookie.jpg" class="img-fluid mb-3 rounded">
                 <p><strong>Harga:</strong> Rp50.000 (Medium) / Rp80.000 (Large)</p>
-                <p><strong>Topping:</strong> Daging ayam panggang, jagung manis, saus BBQ, bawang bombay.</p>
+                <p><strong>Topping:</strong> Cookies coklat, topping kental manis coklat, saus coklat, mesis</p>
             </div>
-            <div class="modal-footer"><button class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button></div>
+            <div class="modal-footer bg-dark text-white">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+            </div>
         </div>
     </div>
 </div>
@@ -116,12 +118,14 @@
                 <h5 class="modal-title">Pizza Bonnie Veggie</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
-            <div class="modal-body">
+            <div class="modal-body bg-dark text-white">
                 <img src="images/fazbear.jpg" class="img-fluid mb-3 rounded">
                 <p><strong>Harga:</strong> Rp48.000 (Medium) / Rp75.000 (Large)</p>
-                <p><strong>Topping:</strong> Paprika merah & hijau, zaitun hitam, tomat ceri, daun basil.</p>
+                <p><strong>Topping:</strong> Keju, keju leleh, pepperoni</p>
             </div>
-            <div class="modal-footer"><button class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button></div>
+            <div class="modal-footer bg-dark text-white">
+                <button class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+            </div>
         </div>
     </div>
 </div>
