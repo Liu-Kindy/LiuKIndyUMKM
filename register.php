@@ -49,7 +49,7 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
             </div>
             <div class="modal-body">
-                Selamat, akun Anda Mendapat Diskon. Silakan login.
+                Selamat, akun Anda telah terdaftar. Silakan login.
             </div>
             <div class="modal-footer">
                 <a href="login.php" class="btn btn-primary">Login Sekarang</a>
